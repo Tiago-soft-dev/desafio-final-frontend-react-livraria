@@ -2,6 +2,7 @@ import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
 import Inicio from '../../pages/inicio/Inicio'
 import QueroDoar from '../../pages/queroDoar/QueroDoar'
 import LivrosDoados from '../../pages/livrosDoados/LivrosDoados'
+import logoLivro from '../../assets/image/logoLivro.png'
 
 export default function Header(){
     return (

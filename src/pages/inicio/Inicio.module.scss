@@ -1,0 +1,16 @@
+.inicioMainSection {
+    height: 75vh;
+    width: 100%;
+    background-image: url('../../assets/image/bannerInicio.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 6%;
+
+    h2{
+        color: #fff;
+        font-size: 32px;
+        width: 15%;
+    }
+}

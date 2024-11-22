@@ -1,5 +1,12 @@
+import style from './Inicio.module.scss'
+
 export default function Inicio(){
     return (
-        <h2>eu sou page inicio</h2>
+        <main>
+            <section className={style.inicioMainSection}>
+                <h2>VENHA FAZER PARTE DA MAIOR REDE DE DOAÇÃO</h2>
+            </section>
+
+        </main>
     )
 }
