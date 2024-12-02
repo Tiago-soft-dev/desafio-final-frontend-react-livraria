@@ -1,5 +1,5 @@
 import iconeLivro from '../../assets/image/iconeLivro.png'
-import s from './queroDoar.module.scss'
+import s from './QueroDoar.module.scss'
 
 export default function QueroDoar(){
     return (
