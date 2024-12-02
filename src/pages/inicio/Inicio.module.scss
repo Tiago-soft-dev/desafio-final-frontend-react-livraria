@@ -14,3 +14,83 @@
         width: 15%;
     }
 }
+
+.porqueDoarSection{
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    justify-content: space-evenly;
+
+    h2{
+        width: 100%;
+        font-size: 40px;
+        color: #005695;
+        
+    }
+}
+
+.cardsMotivos{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50vh;
+    
+
+    section {        
+        width: 20%;
+        background-color:  #0157944D;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 10px;
+
+        p{
+            font-size: 22px;
+            text-align: center;
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width: 780px){
+    .inicioMainSection {
+        background-position: center;
+        height: 50vh;
+
+        h2 {
+            width: 90%;
+            font-size: 28px;
+            text-align: center;
+        }
+
+        
+    }
+
+    .porqueDoarSection {
+        height: 120vh;
+        
+        h2 {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+
+    .cardsMotivos {
+        height: 110vh;
+        flex-direction: column;
+        align-items: center;
+
+        section {
+            width: 70%;
+            height: 25vh;
+
+            p {
+                font-size: 18px
+            };
+
+            img {
+                width: 15%;
+            }
+        }
+    }
+}

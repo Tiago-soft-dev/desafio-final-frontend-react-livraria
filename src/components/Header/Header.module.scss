@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     height: 20vh;
+    padding: 10px 0;
   }
   
   .logoHeader {
@@ -67,3 +68,22 @@
     }
   }
   
+  @media (max-width: 780px){
+    header {
+       flex-direction: column;
+       justify-content: space-evenly; 
+    }
+    .logoHeader {
+        width: 90%;
+
+        img {
+            width: 15%;
+        }
+    }
+    .navHeader {
+        width: 95%;
+    }
+    .barraDeBusca {
+        display: none;
+    }
+}
